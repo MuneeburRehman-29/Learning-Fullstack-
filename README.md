@@ -1,2 +1,2 @@
-# Learning-Frontend
-Here i will be trying to learn frontend from start
+# Learning-Fullstack
+Here i will be trying to learn fullstack web dev from start

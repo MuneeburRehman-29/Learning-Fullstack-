@@ -1,0 +1,50 @@
+/* * is used as a universal selector - what every properies you apply through it applies on all elements of html */
+*{
+    color: purple;  /* accepts three type of values 1. color name "red" , 2. hex code 4. rgb colors or even rsl code */
+}
+/* Type selector - selects and applies the property to any type of tag, for example blue color text property will apply to all div tags out there  */
+div{
+    color: blue;
+}
+/* class selector will select all the elements with that class, class is an attribute you can place with any html tag to give it an identtity, . is used for representing class , mmultiple tags can have same class and one tag can have multiple classes*/
+.alert-text{
+    color: red;
+}
+/*  id selector are same as class selectors, id are represented by a #. Ids are unique one id can only be assigned to one tag  on same page and one tag has only one id */
+#title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    background-color: red;
+    font-weight: 700;   /* 700 is equavelent of bold */
+    text-align: center;
+}
+
+/* you majorly use classes of css styling and if use ids for other purposes like if the elemets would be used in js, you can access it through ids for example document.getElementById('mobile-menu') */
+
+/* you can also styele multiple  classes using ".". this is knowsn as grouping,for example like this 
+.read,
+.unread {
+    css-styling
+}
+ */
+
+ /*  this is known as chaining selectors , its selects those with both classes  */
+ .subsection.header {
+  color: red;
+}
+
+.subsection.header {
+  color: red;
+}
+
+.subsection#preview {
+  color: blue;
+}
+
+
+/* decendent combinators - combinators are to combine two selectors other than grouping or chaining, it has 4 major types we go through decendent
+    we write two selectors with a space and it will only apply to those element with the selecont selector and first selector as ancestor for example 
+    .ancestor .child  with apply to elemets with class child but if it's any parent tag has class ancestor
+     
+*/
+
